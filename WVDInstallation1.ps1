@@ -1,6 +1,5 @@
-<#Author       : Dean Cefola
-# Creation Date: 09-15-2019
-# Usage        : Windows Virtual Desktop Scripted Install
+<#Author       : Alekhya
+# Usage        : Windows Virtual Desktop Scripted Install with restart delay
 
 #********************************************************************************
 # Date                         Version      Changes
