@@ -1,5 +1,4 @@
-<#Author       : Dean Cefola
-# Creation Date: 09-15-2019
+<#Author       : Alekhya
 # Usage        : Windows Virtual Desktop Scripted Install
 
 #********************************************************************************
@@ -196,11 +195,11 @@ Wait-Event -Timeout 5
 #########################
 #    FSLogix Install    #
 #########################
-#$fslogix_deploy_status = Start-Process `
-#    -FilePath "$Localpath\FSLogix\x64\Release\FSLogixAppsSetup.exe" `
-#    -ArgumentList "/install /quiet" `
-#    -Wait `
-#    -Passthru
+$fslogix_deploy_status = Start-Process `
+    -FilePath "$Localpath\FSLogix\x64\Release\FSLogixAppsSetup.exe" `
+    -ArgumentList "/install /quiet" `
+    -Wait `
+    -Passthru
 
 
 #######################################
